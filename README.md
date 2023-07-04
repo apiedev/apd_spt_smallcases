@@ -33,12 +33,18 @@ The Fannypack is added to usec, bear, pmcbot, and assault bots.
 
 Big shoutout to Jehree's custom case framework for doing all the legwork! All I did was tweak a few things to add special slot support (thanks to jbs4bmx Special Slots), and ended up making the case framework support multiple cases so this mod didn't need to be 6 separate folders lol.
 
+
 Credits for all the assets:
 
 "Pouch" (https://skfb.ly/6t6TK) by Daniyal Malik is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
 "Satchel" (https://skfb.ly/6DoRr) by BillieBones is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
 "TP4 - Valise" (https://skfb.ly/6CLXT) by Nathan Sioui is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
 "Keys" (https://skfb.ly/6SxPM) by imparity is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
 "Tactical FIRST AID KIT" (https://skfb.ly/ooP7U) by Ruslan Koschey is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
 
 And CD Project Red for the dope fannypack assets! 
