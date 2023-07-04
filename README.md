@@ -47,4 +47,4 @@ Credits for all the assets:
 "Tactical FIRST AID KIT" (https://skfb.ly/ooP7U) by Ruslan Koschey is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 
 
-And CD Project Red for the dope fannypack assets! 
+And CD Project Red for the dope fannypack asset from Cyberpunk 2077! 
