@@ -25,9 +25,9 @@ And also has a unique new backpack, the Fannypack!
 What sets the fannypack aside from the rest is it can go in the third special slot! The fannypack now works as a (janky) extension to the player inventory, allowing you to see half of the inventory of the fannypack without opening it. 
 
 NOTE: THIS IS INTENDED JANKINESS.
-The way BSG coded these slots is the same exact way a backpack or chestrig slot works, whn you put the item inside the inventory appears. Because of where those slots are, placing the bag in slot 1 or 2 would overlap slot 3. By putting it in slot 3, you won't be overlapping any slots but you WILL have half of the Fannypack overlapped by the inventory screen (see photo above).
+The way BSG coded these slots is the same exact way a backpack or chestrig slot works, whn you put the item inside the inventory appears. Because of where those slots are, placing the bag in slot 1 or 2 would overlap slot 3. By putting it in slot 3, you won't be overlapping any slots but you WILL have half of the Fannypack overlapped by the inventory screen.
 
-Because of the way this slot works, the fannypack will allow you to see half of it's inventory. You can still open the bag inventory by double clicking on it/right click and open. I wish I could move the inventory slightly but that's beyond my means lol. So for now, we get half of a new backpack added to our inventory.
+You can still open the bag inventory by double clicking on it/right click and open. I wish I could move the inventory of the Fannypack slightly to the left, but that's beyond my means lol. So for now, we get half of a new backpack added to our inventory.
 
 The Fannypack is added to usec, bear, pmcbot, and assault bots.
 
@@ -47,4 +47,4 @@ Credits for all the assets:
 "Tactical FIRST AID KIT" (https://skfb.ly/ooP7U) by Ruslan Koschey is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 
 
-And CD Project Red for the dope fannypack asset from Cyberpunk 2077! 
+And CD Project Red for the dope fannypack asset from Cyberpunk 2077!
