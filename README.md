@@ -29,6 +29,9 @@ The way BSG coded these slots is the same exact way a backpack or chestrig slot 
 
 You can still open the bag inventory by double clicking on it/right click and open. I wish I could move the inventory of the Fannypack slightly to the left, but that's beyond my means lol. So for now, we get half of a new backpack added to our inventory.
 
+As far as insurance is concerned, it's a little weird and honestly needs more testing lol. Some items will stay with you on death like a secure case, other items are lost on death. Here is an example I just tested:
+I had the Fannypack with each of the small cases containing one or two items. out of everything I packed (key in the keytool, water in the lunchbox, keycard money and key in the docs, ammo in the ammopouch, and a grizzly in the medpouch) I only lost the keys and keycard on death. I am in NO WAY guaranteeing you won't lose items in the Fannypack, but there is a chance lol. Only put items that are expendable in the Fannypack, I am NOT responsible for you losing all your keys because you didn't read this description lol.
+
 The Fannypack is added to usec, bear, pmcbot, and assault bots.
 
 Big shoutout to Jehree's custom case framework for doing all the legwork! All I did was tweak a few things to add special slot support (thanks to jbs4bmx Special Slots), and ended up making the case framework support multiple cases so this mod didn't need to be 6 separate folders lol.
