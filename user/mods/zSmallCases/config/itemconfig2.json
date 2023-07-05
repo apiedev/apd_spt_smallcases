@@ -1,0 +1,49 @@
+  {
+    "id": "groovey_docscase",
+    "item_name": "Small Documents Case",
+    "item_short_name": "Sml Docscase",
+    "item_description": "A small container that can hold documents, money, and keycards",
+    "trader": "therapist",
+    "trader_loyalty_level": 1,
+    "currency": "roubles",
+    "price": 19840,
+    "unlimited_stock": true,
+    "stock_amount": 999999,
+    "allow_in_slots": [
+      "Pockets"
+    ],
+    "ExternalSize": {
+      "width": 1,
+      "height": 2
+    },
+    "InternalSize": {
+      "horizontal_cells": [2],
+      "vertical_cells": [4]
+    },
+    "included_filter": [
+      "59faff1d86f7746c51718c9c",
+      "5d235b4d86f7742e017bc88a",
+      "5f745ee30acaeb0d490d8c5b",
+      "619cbf9e0a7c3a1a2731940a",
+	  "5448ecbe4bdc2d60728b4568",
+	  "543be5e94bdc2df1348b4568",
+	  "567849dd4bdc2d150f8b456e",
+	  "543be5dd4bdc2deb348b4569"
+    ],
+    "excluded_filter": [""],
+    "cell_to_apply_filters_to": 0,
+    "unique_included_filter": [""],
+    "unique_excluded_filter": [""],
+    "allow_in_secure_containers": true,
+    "allow_in_backpacks": true,
+    "case_allowed_in": [""],
+    "case_disallowed_in": [""],
+    "insurancedisabled": false,
+    "availableforinsurance": true,
+    "examinedbydefault": false,
+    "isunremovable": false,
+	"discardingblock": false,
+	"isundiscardable": false,
+	"isungivable": false,
+	"discardlimit": 9999
+  }
