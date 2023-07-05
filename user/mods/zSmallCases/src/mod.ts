@@ -65,7 +65,7 @@ class Mod implements IPostAkiLoadMod, IPostDBLoadMod
 
             for (const i in tables.templates.items)
             {
-                if (tables.templates.items[i]._parent === ("5448e53e4bdc2d60728b4567" || "5448bf274bdc2dfc2f8b456a"))
+           	if (tables.templates.items[i]._parent === "5448e53e4bdc2d60728b4567" || tables.templates.items[i]._parent === "5448bf274bdc2dfc2f8b456a")
                 {
                     if (tables.templates.items[i]._props.Grids[0]._props.filters[0] === undefined)
                     {
