@@ -2,6 +2,13 @@
 A mod for SPT-AKI that adds a few unique small variants to many of the cases in Tarkov. And also a Fannypack!
 
 
+​Install Instructions:
+​
+​- This mod has ZERO requirements!
+​
+​- Simply drag the users folder from the download into your main SPT folder! If you did everything correct you should have two new mods in your users/mods directory, zFannyPack and zSmallCases!
+​
+​
 
 This mod adds a a few unique cases to the game to make the early game a little less tedius! This mod features five new cases:
 
