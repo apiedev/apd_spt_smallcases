@@ -1,0 +1,46 @@
+  {
+    "id": "groovey_lunchbox",
+    "item_name": "Lunchbox",
+    "item_short_name": "Lunchbox",
+    "item_description": "A lunchbox made to store all your snacks and drinks! Note from mom not included",
+    "trader": "jaeger",
+    "trader_loyalty_level": 1,
+    "currency": "roubles",
+    "price": 17899,
+    "unlimited_stock": true,
+    "stock_amount": 999999,
+    "allow_in_slots": [
+      "Pockets"
+    ],
+    "ExternalSize": {
+      "width": 2,
+      "height": 1
+    },
+    "InternalSize": {
+      "horizontal_cells": [3],
+      "vertical_cells": [3]
+    },
+    "included_filter": [
+      "5af0484c86f7740f02001f7f",
+	  "5e54f6af86f7742199090bf3",
+	  "5bc9be8fd4351e00334cae6e",
+	  "543be6674bdc2df1348b4569",
+	  "6389c6463485cf0eeb260715"
+    ],
+    "excluded_filter": [""],
+    "cell_to_apply_filters_to": 0,
+    "unique_included_filter": [""],
+    "unique_excluded_filter": [""],
+    "allow_in_secure_containers": true,
+    "allow_in_backpacks": true,
+    "case_allowed_in": [""],
+    "case_disallowed_in": [""],
+    "insurancedisabled": false,
+    "availableforinsurance": true,
+    "examinedbydefault": false,
+    "isunremovable": false,
+	"discardingblock": false,
+	"isundiscardable": false,
+	"isungivable": false,
+	"discardlimit": 9999
+  }
