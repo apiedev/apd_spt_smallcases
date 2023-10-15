@@ -1,0 +1,12 @@
+{
+    "manifest": [
+        {
+            "key": "groovey_fannypack/case.bundle",
+            "dependencyKeys": [
+				"shaders",
+				"assets/commonassets/physics/physicsmaterials.bundle",
+				"cubemaps"
+            ]
+        }
+    ]
+}
