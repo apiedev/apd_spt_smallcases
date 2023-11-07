@@ -1,0 +1,55 @@
+{
+	"id": "groovey_scavcase",
+	"item_name": "Small Scavcase",
+	"item_short_name": "Sml Scavcase",
+	"item_description": "A small case, most recently used by a scav to store junk",
+
+	"trader": "therapist",
+	"trader_loyalty_level": 1,
+	"currency": "roubles",
+	"price": 311420,
+	"unlimited_stock": true,
+	"stock_amount": 999999,
+
+	"allow_in_slots": [
+		"Pockets"
+	],
+
+	"ExternalSize": {
+		"width":3,
+		"height": 2
+	},
+
+	"InternalSize": {
+		"horizontal_cells": [8],
+		"vertical_cells": [5]
+	},
+
+	"included_filter": [""],
+	"excluded_filter": [
+		"5448eb774bdc2d0a728b4567", 
+		"5448ecbe4bdc2d60728b4568", 
+		"5447e0e74bdc2d3c308b4567"
+	],
+
+	"cell_to_apply_filters_to": 0,
+	"unique_included_filter": [""],
+	"unique_excluded_filter": [""],
+
+	"allow_in_secure_containers": false,
+	"allow_in_backpacks": true,
+	"case_allowed_in": [""],
+	"case_disallowed_in": [""],
+	"insurancedisabled": true,
+	"availableforinsurance": false,
+	"examinedbydefault": false,
+	"isunremovable": false,
+	"discardingblock": false,
+	"isundiscardable": false,
+	"isungivable": false,
+	"discardlimit": 9999
+
+
+
+
+}
