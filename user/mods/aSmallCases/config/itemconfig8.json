@@ -25,12 +25,12 @@
 		"vertical_cells": [5]
 	},
 
-	"included_filter": [""],
-	"excluded_filter": [
+	"included_filter": [
 		"5448eb774bdc2d0a728b4567", 
 		"5448ecbe4bdc2d60728b4568", 
 		"5447e0e74bdc2d3c308b4567"
 	],
+	"excluded_filter": [""],
 
 	"cell_to_apply_filters_to": 0,
 	"unique_included_filter": [""],
