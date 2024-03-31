@@ -105,25 +105,32 @@ class Mod implements IPostAkiLoadMod, IPostDBLoadMod
             let itemParent;
 
             // Push item into equipment slots filters per the config and swap parent ID's if needed
-            for (const configSlot in config.allow_in_slots) {
-                for (const slot in defaultInventorySlots) {
-                    if (config.allow_in_slots[configSlot] === defaultInventorySlots[slot]._name) {
+            for (const configSlot in config.allow_in_slots) 
+            {
+                for (const slot in defaultInventorySlots) 
+                {
+                    if (config.allow_in_slots[configSlot] === defaultInventorySlots[slot]._name) 
+                    {
                         defaultInventorySlots[slot]._props.filters[0].Filter.push(itemID);
                     }
                 }
-                if (config.allow_in_slots[configSlot] === "TacticalVest") {
+                if (config.allow_in_slots[configSlot] === "TacticalVest") 
+                {
                     itemParent = "5448e5284bdc2dcb718b4567";
                 } 
-                if (config.allow_in_slots[configSlot] === "Backpack") {
+                if (config.allow_in_slots[configSlot] === "Backpack") 
+                {
                     itemParent = "5448e53e4bdc2d60728b4567";
                 } 
-                if (config.allow_in_slots[configSlot] === "SecuredContainer") {
+                if (config.allow_in_slots[configSlot] === "SecuredContainer") 
+                {
                     itemParent = "5448bf274bdc2dfc2f8b456a";
                 }
             }
 
             // Default to simplecontainer if none of the specific slots match
-            if (!itemParent) {
+            if (!itemParent) 
+            {
                 itemParent = "5795f317245977243854e041"; // simplecontainer
             }
 
@@ -219,39 +226,19 @@ class Mod implements IPostAkiLoadMod, IPostDBLoadMod
 				
             // add to bot loot
 			
-            // add to loot
-            const botTypes = [
-                "usec",
-                "bear",
-                "exusec",
-                "followerbully",
-                "pmcbot",
-                "followersanitar",
-                "followertagilla",
-                "followergluharassault",
-                "followergluharsecurity",
-                "followergluharscout",
-                "followergluharsnipe",
-                "followerkojaniy",
-                "assault"
-            ];
-            
             const itemToExclude = "groovey_scavcase"; // Item to exclude
             
-            for (const bot in tables.bots.types) {
-                for (const lootSlot in tables.bots.types[bot].inventory.items) {
-                    if (botTypes.includes(bot)) {
-                        if (tables.bots.types[bot].inventory.items[lootSlot].includes("5783c43d2459774bbe137486")) {
-                            if (itemID !== itemToExclude) { // Check if itemID is not the excluded item
-                                tables.bots.types[bot].inventory.items.Backpack.push(itemID);
-                                tables.bots.types[bot].inventory.items.TacticalVest.push(itemID);
-                                //console.log(`Successfully added item ${itemID} to backpack and tactical vest of ${bot}.`)
-                            }
-                        }
-                    }
+            for (const bot in tables.bots.types) 
+            {
+                // Assuming that 'types' contains the relevant information about each bot
+                const botInfo = tables.bots.types[bot];
+            
+                // Iterate through each loot slot in the bot's inventory
+                for (const lootSlot in botInfo.inventory.items)
+                {
+                    delete botInfo.inventory.items[lootSlot]["5783c43d2459774bbe137486"];
                 }
             }
-            
 
             //log success!
             this.logger.log(`[${this.modName}] : ${config.item_name} loaded! Hooray!`, "green");

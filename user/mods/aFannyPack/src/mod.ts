@@ -5,6 +5,7 @@ import { HashUtil } from "@spt-aki/utils/HashUtil";
 import { JsonUtil } from "@spt-aki/utils/JsonUtil";
 import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
 import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
+import { WeightedRandomHelper } from "@spt-aki/helpers/WeightedRandomHelper";
 
 
 import * as config from "../config/config.json";
@@ -189,21 +190,15 @@ class Mod implements IPostAkiLoadMod, IPostDBLoadMod
             config.case_disallowed_in);
 
         // add case to bots
-        const weightingMult = 1.0
-        const botTypes = [
-            "usec",
-            "bear",
-            "pmcbot",
-            "assault"
-        ];
         for (const bot in tables.bots.types) 
         {
-            if (botTypes.includes(bot)) 
+            const botInfo = tables.bots.types[bot];
+            if (botInfo.inventory.equipment.Backpack["56e33680d2720be2748b4576"] != undefined)
             {
                 try 
                 {
-                    tables.bots.types[bot].inventory.equipment.Backpack[itemID] = Math.round(tables.bots.types[bot].inventory.equipment.Backpack["56e33680d2720be2748b4576"] * weightingMult);
-                //console.log(`Added ${itemID} to bot ${bot}'s tables.`);
+                    const itemWeight = Math.round(botInfo.inventory.equipment.Backpack["56e33680d2720be2748b4576"]);
+                    botInfo.inventory.equipment.Backpack[itemID] = itemWeight;
                 }
                 catch (error) 
                 {

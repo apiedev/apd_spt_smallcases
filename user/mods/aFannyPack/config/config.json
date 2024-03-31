@@ -36,8 +36,8 @@
     "allow_in_backpacks": true,
     "case_allowed_in": [""],
     "case_disallowed_in": [""],
-    "insurancedisabled": false,
-    "availableforinsurance": true,
+    "insurancedisabled": true,
+    "availableforinsurance": false,
 	"examinedbydefault": false
 
 
